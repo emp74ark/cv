@@ -8,3 +8,10 @@ header {
         text-align: center;
     }
 }
+
+@media print {
+    header {
+        text-align: unset;
+        align-self: center;
+    }
+}

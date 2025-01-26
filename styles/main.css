@@ -12,10 +12,10 @@
 
 body {
     display: grid;
-    grid-template-columns: auto minmax(30%, 1fr) minmax(30%, 1fr);
+    grid-template-columns: auto minmax(30ch, 1fr) minmax(15ch, 1fr);
     gap: 1rem;
     grid-template-areas:
-        'photo header header'
+        'photo header buttons'
         'photo contacts languages'
         'about about about'
         'competencies competencies competencies'
@@ -43,5 +43,39 @@ body {
             'education'
             'consent'
             'footer';
+    }
+}
+
+@media print {
+    :root {
+        padding: 1rem 0.3rem;
+    }
+
+    body {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            'photo header header'
+            'contacts about about'
+            'competencies projects projects'
+            'languages projects projects'
+            '. education education'
+            'consent consent consent'
+            'footer footer footer';
+        gap: 0.5rem;
+    }
+
+    body, h1, h2, h3, a, a:visited, a:hover, a:active {
+        color: #000000;
+        font-family: serif;
+        text-decoration: none;
+        text-align: left;
+    }
+
+    h2, h3 {
+        font-size: 1.2rem;
+    }
+
+    section {
+        page-break-inside: avoid;
     }
 }

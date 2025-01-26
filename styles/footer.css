@@ -8,3 +8,9 @@ footer {
     background: var(--bg-secondary);
     border-radius: var(--section-border-radius);
 }
+
+@media print {
+    footer {
+        text-align: right;
+    }
+}

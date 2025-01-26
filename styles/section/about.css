@@ -7,3 +7,11 @@ section#about {
     border-radius: var(--section-border-radius);
     background: var(--bg-tertiary);
 }
+
+@media print {
+    .permit {
+        padding: unset;
+        font-size: smaller;
+        font-style: italic;
+    }
+}

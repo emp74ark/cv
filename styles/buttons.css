@@ -1,0 +1,33 @@
+.buttons {
+    grid-area: buttons;
+    align-self: center;
+    justify-self: end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.print-button {
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.print-button svg {
+    fill: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+    .buttons {
+        display: none;
+    }
+}
+
+@media print {
+    .buttons {
+        display: none;
+    }
+}

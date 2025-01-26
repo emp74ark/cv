@@ -6,3 +6,9 @@ section#consent {
     font-size: smaller;
     line-height: 1.5;
 }
+
+@media print {
+    section#consent {
+        color: #3e3d3d;
+    }
+}

@@ -15,3 +15,10 @@ section#photo img {
         max-width: 50%;
     }
 }
+
+@media print {
+    section#photo img {
+        border-radius: 0.2rem;
+        padding: 1rem;
+    }
+}
