@@ -1,6 +1,6 @@
-@import 'typography/typography.css';
+@import './typography/typography.css';
 @import 'main.css';
 @import 'colors.css';
-@import 'section/section.css';
+@import './section/section.css';
 @import 'header.css';
 @import 'footer.css';
