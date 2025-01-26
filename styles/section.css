@@ -1,11 +1,11 @@
-@import '_photo.css';
-@import '_contacts.css';
-@import '_about.css';
-@import '_projects.css';
-@import '_competencies.css';
-@import '_languages.css';
-@import '_education.css';
-@import '_consent.css';
+@import 'photo.css';
+@import 'contacts.css';
+@import 'about.css';
+@import 'projects.css';
+@import 'competencies.css';
+@import 'languages.css';
+@import 'education.css';
+@import 'consent.css';
 
 section {
     padding: 0.2rem 1rem;
