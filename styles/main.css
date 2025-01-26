@@ -1,0 +1,47 @@
+:root {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 1000px;
+    font-family: sans, ui-sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    --section-border-radius: 0.5rem;
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto minmax(30%, 1fr) minmax(30%, 1fr);
+    gap: 1rem;
+    grid-template-areas:
+        'photo header header'
+        'photo contacts languages'
+        'about about about'
+        'competencies competencies competencies'
+        'projects projects projects'
+        'education education education'
+        'consent consent consent'
+        'footer footer footer';
+}
+
+@media (max-width: 768px) {
+    :root {
+        padding: 0.5rem;
+    }
+
+    body {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'header'
+            'photo'
+            'contacts'
+            'languages'
+            'about'
+            'competencies'
+            'projects'
+            'education'
+            'consent'
+            'footer';
+    }
+}

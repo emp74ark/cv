@@ -15,7 +15,7 @@ __Front-end developer__
 -   English B2
 
 ## Summary
-Enthusiastic and detail-oriented front-end web-developer. Stress resistant. I love good designs and enjoy coding a beautiful UI.
+Enthusiastic and detail-oriented front-end web-developer. Stress resistant. Love good designs and enjoy coding a beautiful UI.
 
 Proficient in both individual and collaborative project settings, development using different project management systems (JIRA, YouTrack, GitHub Projects). Know how to cooperate with different sorts of persons or teams.
 
@@ -32,7 +32,7 @@ _Work permit in EU: Polska karta pobytu, valid until 08.11.2025._
 - Redux / Redux Toolkit
 - Styled Components
 - NodeJs / Express
-- MongoDB / PostrgreSQL
+- MongoDB / PostgresSQL
 - Cypress
 - GIT
 
@@ -41,7 +41,7 @@ _Work permit in EU: Polska karta pobytu, valid until 08.11.2025._
     - React, Styled Components, React Query (web)
     - MS Azure (GIT)
     - JIRA
-- [RapidFunel](https://rapidfunnel.com/)
+- [RapidFunnel](https://rapidfunnel.com/)
     - React, MUI (web)
     - React Native, Redux Toolkit (mobile)
     - NodeJs, Express, MongoDB, MySQL (backend)
@@ -68,7 +68,7 @@ _Work permit in EU: Polska karta pobytu, valid until 08.11.2025._
   - AWS Well-Architected Foundations, [certificate](certificates/aws-well_architected.pdf)
   - AWS Cloud Practitioner Essentials, [certificate](certificates/aws-cloud_practitioner.pdf)
   - AWS Security Fundamentals Second Edition, [certificate](certificates/aws-security_fundamentals.pdf)
-- 2024 The Rolling Scopes, AWS Fundamentals, [certificate](certificates/rs_aws.pdf)
+- 2024 The Rolling Scopes, AWS Fundamentals, [certificate](certificates/rs_aws_2024.pdf)
 
 ---
 I agree to the processing of personal data provide in this document for realizing the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation).

@@ -1,0 +1,8 @@
+section#consent {
+    grid-area: consent;
+    padding: 1.5rem 2rem;
+    background: var(--bg-tertiary);
+    font-style: italic;
+    font-size: smaller;
+    line-height: 1.5;
+}

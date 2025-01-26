@@ -1,0 +1,15 @@
+a {
+    color: var(--text-primary);
+}
+
+a:hover {
+    color: var(--text-hover);
+}
+
+a:active {
+    color: var(--text-primary);
+}
+
+a:visited {
+    color: var(--text-primary);
+}

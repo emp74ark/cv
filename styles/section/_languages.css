@@ -1,0 +1,16 @@
+section#languages {
+    grid-area: languages;
+}
+
+@media (min-width: 768px) {
+    section#languages {
+        background: var(--bg-tertiary);
+        padding: 1rem 2rem;
+    }
+
+    section#languages ul {
+        margin: 0;
+        padding-left: 0;
+        font-size: smaller;
+    }
+}

@@ -1,0 +1,16 @@
+section#contacts {
+    grid-area: contacts;
+}
+
+@media (min-width: 768px) {
+    section#contacts {
+        background: var(--bg-tertiary);
+        padding: 1rem 2rem;
+    }
+
+    section#contacts ul {
+        margin: 0;
+        padding-left: 0;
+        font-size: smaller;
+    }
+}

@@ -1,0 +1,21 @@
+:root {
+    --text-primary: #16404d;
+    --text-secondary: #533507;
+    --text-tertiary: #a39885;
+    --text-hover: #198bb1;
+    --bg-primary: #ffffff;
+    --bg-secondary: #f6faf9;
+    --bg-tertiary: #ebf6ee;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-primary: #bce0e8;
+        --text-secondary: #e4c09f;
+        --text-tertiary: #d1ccc5;
+        --text-hover: #5fd5f4;
+        --bg-primary: #0a1a1f;
+        --bg-secondary: #102d2d;
+        --bg-tertiary: #474948;
+    }
+}

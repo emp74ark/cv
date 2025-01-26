@@ -1,0 +1,17 @@
+section#photo {
+    grid-area: photo;
+    align-self: center;
+}
+
+section#photo img {
+    display: block;
+    margin: 0 auto;
+    width: 15rem;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    section#photo img {
+        max-width: 50%;
+    }
+}

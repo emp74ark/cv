@@ -1,0 +1,10 @@
+footer {
+    grid-area: footer;
+    font-size: small;
+    font-style: italic;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background: var(--bg-secondary);
+    border-radius: var(--section-border-radius);
+}

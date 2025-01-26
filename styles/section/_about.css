@@ -1,0 +1,9 @@
+section#about {
+    grid-area: about;
+}
+
+.permit {
+    padding: 1rem;
+    border-radius: var(--section-border-radius);
+    background: var(--bg-tertiary);
+}
