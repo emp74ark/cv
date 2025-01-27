@@ -1,0 +1,36 @@
+name: Convert HTML to Markdown
+
+on:
+  push:
+    branches: [ "dev" ]
+    paths:
+      - "index.html"
+  workflow_dispatch:
+
+jobs:
+  generate-md:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: npm install turndown
+
+      - name: Convert HTML to Markdown
+        run: node ./scripts/html2markdown.js
+
+      # Commit and push Markdown file
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub Actions"
+          git add output.md
+          git commit -m "Convert html to Markdown"
+          git push
