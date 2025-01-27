@@ -3,6 +3,8 @@ Andrei Yurkouski
 
 Front-end developer
 
+[](./andrei_yurkouski.md)[](#)
+
 ![Photo](./assets/photo.jpg)
 
 ### Contacts
