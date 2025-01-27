@@ -8,15 +8,15 @@
     gap: 0.5rem;
 }
 
-.print-button {
-    width: 2rem;
-    height: 2rem;
+.icon-button {
+    width: 1.5rem;
+    height: 1.5rem;
     border: none;
     background: none;
     cursor: pointer;
 }
 
-.print-button svg {
+.icon-button svg {
     fill: var(--text-primary);
 }
 
