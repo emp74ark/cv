@@ -1,0 +1,134 @@
+:root {
+    padding: 0;
+    --side-section-bg: #595c5a;
+    --section-text-color: #fff;
+    --section-heading-color: #0c1c29;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+            'photo header header'
+            'contacts about about'
+            'competencies projects projects'
+            'languages projects projects'
+            '. education education'
+            'consent consent consent'
+            'footer footer footer';
+    gap: 0 1rem;
+}
+
+@media print {
+    * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+
+
+body, h1, h2, h3, a, a:visited, a:hover, a:active {
+    color: #000000;
+    font-family: serif;
+    text-decoration: none;
+    text-align: left;
+}
+
+h2, h3 {
+    font-size: 1.2rem;
+}
+
+ul {
+    padding-left: 1rem;
+}
+
+section {
+    page-break-inside: avoid;
+}
+
+.buttons {
+    display: none;
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+    font-size: small;
+    font-style: italic;
+    text-align: right;
+}
+
+section#about {
+    grid-area: about;
+}
+
+section#competencies {
+    grid-area: competencies;
+    padding: 0 1rem;
+}
+
+section#consent {
+    grid-area: consent;
+    padding: 1.5rem 2rem;
+    font-style: italic;
+    font-size: smaller;
+    line-height: 1.5;
+    color: #3e3d3d;
+}
+
+section#contacts {
+    grid-area: contacts;
+    padding: 0 1rem;
+}
+
+section#photo,
+section#contacts,
+section#languages,
+section#competencies {
+    background: var(--side-section-bg);
+    color: var(--section-text-color);
+}
+
+section#contacts a,
+section#languages a,
+section#competencies a {
+    color: var(--section-text-color);
+}
+
+section#contacts h2,
+section#contacts h3,
+section#languages h2,
+section#languages h3,
+section#competencies h2,
+section#competencies h3 {
+    color: var(--section-heading-color);
+}
+
+section#education {
+    grid-area: education;
+}
+
+section#languages {
+    grid-area: languages;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+section#photo {
+    grid-area: photo;
+    align-self: center;
+}
+
+section#photo img {
+    display: block;
+    margin: 0 auto;
+    width: 8rem;
+    padding: 1rem;
+}
+
+section#projects {
+    grid-area: projects;
+}
