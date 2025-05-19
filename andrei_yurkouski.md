@@ -23,7 +23,9 @@ Front-end developer
 About
 -----
 
-Enthusiastic and detail-oriented front-end web-developer. Stress resistant. Love good designs and enjoy coding a beautiful UI. Proficient in both individual and collaborative project settings, development using different project management systems (JIRA, YouTrack, GitHub Projects). Know how to cooperate with different sorts of persons or teams.
+A Frontend Developer skilled in modern libraries and frameworks, along with a strong foundation in core web technologies. Proficient in HTML, CSS, JavaScript/TypeScript, React, Redux, Next.js, Angular, and Express.
+
+Demonstrates strong expertise in building web applications, with a thorough understanding of the entire lifecycle—from coding to deployment. Skilled in both independent and collaborative work environments, and experienced in using various project management tools, including JIRA, YouTrack, and GitHub Projects. Excels in effective teamwork and collaboration with diverse individuals and teams.
 
 Work permit in EU: Polska karta pobytu, valid until 08.11.2025.
 
