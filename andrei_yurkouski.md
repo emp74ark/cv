@@ -62,7 +62,7 @@ Projects
 *   BitBucket (GIT)
 *   JIRA
 
-**[Yardooh](https://www.yardooh.com/) by Yardooh**
+**[Yardooh](https://joinyardooh.com/) by Higher Flame Inc**
 
 *   React, TanStack Query, TanStack Router, Vite
 *   Docker
