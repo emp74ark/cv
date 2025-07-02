@@ -40,7 +40,7 @@ Competencies
 *   Redux / Redux Toolkit
 *   Angular
 *   Styled Components
-*   NodeJs / Express
+*   NodeJs / Express / NestJs
 *   MongoDB / PostgresSQL
 *   Cypress
 *   Git
